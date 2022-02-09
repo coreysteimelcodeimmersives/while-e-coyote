@@ -8,7 +8,7 @@ console.log('\n')
 
 console.log(num);
 
-while (num <= 100) {
+while (num < 100) {
     num = num * 2;
     console.log(num);
 }
