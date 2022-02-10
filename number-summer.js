@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')({sigint: true});
 
 console.log("Enter some numbers (type 'done' when complete): ")
 
