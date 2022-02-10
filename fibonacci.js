@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')({sigint: true});
 
-console.log("Enter a value for 'n' where 'n' is the number of values of the fibonacci sequence to be displayed.");
+console.log('Enter a value for "n":');
 
 let n = Number(prompt("> "));
 
