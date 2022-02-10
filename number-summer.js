@@ -13,4 +13,5 @@ while (num !== 'done'){
     num = prompt("> ");
 }
 
-console.log("Your total is: " + total);
+console.log('\n');
+console.log("Those numbers sum to " + total);
