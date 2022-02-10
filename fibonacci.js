@@ -8,7 +8,7 @@ console.log("\n");
 
 let count = 0;
 
-let fibo = 0;
+let fiboAns = 0;
 
 let fibo1 = 0;
 
@@ -16,18 +16,18 @@ let fibo2 = 1;
 
 while (count !== n){
 
-    console.log(fibo);
+    console.log(fiboAns);
 
     if (count === 1){
         fibo1 = 0;
     }
     
-    fibo = fibo1 + fibo2;
+    fiboAns = fibo1 + fibo2;
 
     fibo1 = fibo2;
 
-    fibo2 = fibo;
+    fibo2 = fiboAns;
 
-    count = count + 1;
+    count++;
 
 }
